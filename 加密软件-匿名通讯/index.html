@@ -1,0 +1,498 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.9">
+    
+    
+      
+        <title>去中心化 - 一些常识</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.0d440cfe.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.2505c338.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="cyan" data-md-color-accent="neon">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href=".." title="一些常识" class="md-header__button md-logo" aria-label="一些常识" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            一些常识
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              去中心化
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="一些常识" class="md-nav__button md-logo" aria-label="一些常识" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    一些常识
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        主页
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E5%90%84%E7%A7%8D%E5%B7%B2%E6%9C%89U%E7%9B%98-SD%E5%8D%A1-TF%E5%8D%A1-%E7%A7%BB%E5%8A%A8%E7%A1%AC%E7%9B%98/" class="md-nav__link">
+        各种已有U盘-SD卡-TF卡-移动硬盘
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E5%90%84%E7%A7%8D%E6%8E%A5%E5%8F%A3-%E5%A4%A7%E5%B8%A6%E5%AE%BD-%E9%AB%98%E9%80%9F%E7%8E%87%E6%8E%A5%E5%8F%A3%E5%AF%B9%E6%AF%94/" class="md-nav__link">
+        各种接口-大带宽-高速率接口对比
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    联邦协议去中心化 (典型的电子邮件)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    阅后即焚 下载后即焚
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    安全加密通讯
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    开源团队协作沟通平台软件
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#p2p" class="md-nav__link">
+    P2P加密及时通信软件
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    无网络通讯
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    反定位
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    设备加密
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="_1">去中心化</h1>
+<ol>
+<li>联邦协议(federation) Matrix,ActivityPub</li>
+<li>点对点协议(P2P) Ssb(Secure Scuttlebutt),Aether,BT,Dat Protocol</li>
+<li>区块链 IPFS(星际文件系统),Solid(社交互联数据),EOS
+   区块链用到了p2p</li>
+</ol>
+<h2 id="_2">联邦协议去中心化 (典型的电子邮件)</h2>
+<ol>
+<li>
+<p>去中心化的微信 Element.io(原名Riot.im)
+联邦通信协议: Matrix 是一个开源的分布式的联邦宇宙 IM 系统，多个中心服务器可以互联互通。
+    <strong>被法国政府采用来开发官方即时通讯软件</strong>
+中心服务器(homeserver): synapse 
+客户端(client): Element
+client &lt;----&gt; homeserver &lt;=====================&gt; homeserver &lt;----&gt; client
+       https://somewhere.org/_matrix      https://elsewhere.net/_matrix</p>
+</li>
+<li>
+<p>服务端 synapse
+使用 Matrix 联邦协议
+    官方服务器 matrix.org, 国内无法访问。
+        注册需使用邮箱或手机号。
+    国内云服务器 架 synapse 服务, 无法跟其它服务器通信。
+    自建 synapse 服务，可以小范围自用(不接入联邦宇宙，独立运行)
+        不要开放注册，可使用用户名登录。</p>
+</li>
+</ol>
+<p>支持端到端加密,组群、频道与文件分享。
+需要 https 域名</p>
+<ul>
+<li>客户端 Element
+使用 自建 https 域名登录</li>
+</ul>
+<p>端到端加密设置：
+私信 默认是端到端加密，无法关闭，不能选择。
+群组 创建房间时，默认是开启，此时可以选择关闭。 一旦创建了是开启，就无法再关闭。</p>
+<p>关于开启端到端加密：
+    如果不记住自己的密钥(注意，不是密码)，将会：
+        别人即使拿到你的用户名和密码，在其它手机上登录，也无法看到之前的聊天记录。
+        哪怕是自己退出后，再登录，也无法看到自己之前的聊天记录。 
+    保存好密钥</p>
+<ol>
+<li>去中心化的微博 Mastodon(长毛象/乳齿象)</li>
+<li>服务端架设 实例
+使用 ActivityPub 联邦协议
+遵守 OStatus标准 (分布式状态更新的协议)
+需要 ssl 域名
+限制仇恨言论，每个实例的管理员都管理自己的实例进行审查、删号
+最好禁qq邮箱注册
+可以开注册邀请
+可以关闭搜索引擎索引
+没有对内容加密,内容对管理员可见</li>
+<li>
+<p>客户端
+访问 joinmastodon.org 开始，选择社区
+从社区中选择一个实例 join 
+用电子邮件注册
+官方没有针对Android和iOS的移动应用程序，但有第三方客户端，但是建议用浏览器。
+switter.at(实例的网址) 是不可描述的实例
+PixelFed 是Mastodon版本的Instagram</p>
+</li>
+<li>
+<p>ssr/v2ray 必须用境外服务器</p>
+</li>
+</ol>
+<h2 id="_3">阅后即焚 下载后即焚</h2>
+<p><a href="privnote.com">privnote</a>  -- 阅后即焚网站[墙内可用]  (再次打开该链接就看不到了)
+send.firefox.com -- 下载后即焚文件分享[墙内可用]  (不用注册可上传1GB以内文件，分享链接可选下载一次就焚，无人下载一天即焚，也可以加密码)</p>
+<h2 id="_4">安全加密通讯</h2>
+<p>除了可在目标手机植入「按键纪录」木马外，也可以从公司的网络中任何一台电脑安装 Snipping 软体，拆开封包看到聊天软体所传送及接收的讯息，就连 email 也可以拆出来。
+规避办法，使用具备加密功能的通讯软体：比如Telegram 、FireChat</p>
+<p>telegram: 
+“一般聊天”模式，使用端到端的加密通信，聊天历史会被存储在 Telegram 云端服务器，而且可以使用多个设备登录并同步聊天历史。
+“秘密聊天”模式，使用端对端的加密通信，而且只能经由两个特定设备登录，消息不会被存储在云端服务器，无法被转发。 可选阅后即焚模式，定时自动从双方设备中销毁，像 Snapchat 一样。
+消息的读取状态分为两种：一只对勾代表发送完毕，二只对勾代表消息已获读取
+群组聊天 支持10万人的群，并可选择“无管理员的民主模式”
+频道 无限制用户人数,可指派50名管理员维护
+支持机器人、语言通话、视频文件等无文件大小限制。</p>
+<p>为了节省服务器资源，若用户长时间不登录Telegram账号，系统会自动予以销毁（即永久删除），用户可以设置多久后自动销毁该账号，时长分别有一个月后、三个月后、半年后和一年后（默认时长为半年后），用户也可手动销毁账号</p>
+<h2 id="_5">开源团队协作沟通平台软件</h2>
+<p>四款 Slack, MatterMost, Rocket.Chat, Matrix/Riot.im
+其它非开源:
+Clubhouse 语音社交 音频直播, 
+Discord (游戏)语音聊天游戏开黑 连接steam,(社交)基于兴趣的社区频道 #话题</p>
+<p>RocketChat:
+开源并且完全免费的WEB聊天系统，虽然核心部分是基于WEB，但是官方开发了众多跨平台客户端，可以说RocketChat现在在众多主流操作系统上使用是完全没有问题的。
+RocketChat具备了非常强大的社交功能，拿Telegram来对比一下的话，可以说在功能方面和Telegram不相上下。所以与其说RocketChat是一个聊天系统不如说它是一个强大的团队协作平台。
+1、公共频道聊天，类似Telegram群组。
+2、频道只读，类似Telegram的频道。频道只能由创建者发言。
+3、私人对话，功能就相当于QQ好友与好友之间聊天。
+4、无记录对话，类似于“阅后即焚”。聊私密信息的神器~
+5、@功能，可以在群组和频道中使用，类似于Telegram中@一个人的用户名，该用户可以得到消息提示。
+6、语音聊天以及视频聊天的支持。
+7、网址链接预览，类似于Telegram中发一个网站地址可以读取网站的标题和描述。
+8、文件共享、上传、下载、分享等等。
+9、用户搜索、群组搜索、消息搜索等等一系列强大的搜索功能。
+10、自定义聊天表情，这个可以由管理员设置。
+11、完善的用户权限设置功能，每个用户所对应的用户组都可以设置相应的使用权限。
+12、完善的自定义功能，可以自定义CSS、上传站点LOGO、站标、设置描述、设置ToS、开关闭用户注册，等等。
+13、各种额外属性的支持，比如OAUTH第三方登录、外部聊天窗口，等等等等</p>
+<p>可以自己搭建的服务器，不同服务器间不能互通
+不支持端到端加密</p>
+<h2 id="p2p">P2P加密及时通信软件</h2>
+<p>Tox, Jami(老名字GNU Ring), bitmessage 等 P2P 协议：比邦联式更加去中心化，但是缺乏离线消息和单账户多设备支持
+特点是无需服务器，跟磁力链接一样难以封杀，坏处是收不到不在线时的群组消息，一个帐号不能同时登陆多设备，长期在线手机电量耗的快。</p>
+<p>Jami 和 Matrix 互补配合使用很不错。</p>
+<h2 id="_6">无网络通讯</h2>
+<p>FireChat,bridgefy 或 Briar
+这几者差不多一样，使用手机自带的 Wi-Fi 与 蓝牙进行互联互通，对于小范围内的通讯（ &lt; 70 米），可以做到完全无需数据网络，无需连接互联网就可以实现，而更远距离的通信，则只需要有一名用户连接互联网，就能同步数据。
+也就是理论上如果有无限多的人使用 FireChat，那么就算全球断网，也都可以继续使用了，只不过通信效率取决于人流的移动。
+万一城市游行导致区域断网封锁消息的时候用得着。
+[下载链接]
+FireChat：https://d.appinn.com/firechat/
+Briar：https://briarproject.org/download-briar/
+bridgefy：https://www.bridgefy.me/</p>
+<h2 id="_7">反定位</h2>
+<p>不要长开手机定位服务，不用的时候关掉自动定位，一来可保私隐，二来亦可令智慧装置更省电。
+关掉相片位置纪录 / 删除 EXIF ：所有经手机或含有 GPS 功能的相片拍摄的相片，分享前必须把 EXIF 清除或直接在手机中关闭此功能。
+将日常用的手机关机放好不要随身
+把第二台手机装上「储值卡」，间谍就无法事后在基地台中查到你的行踪
+使用现金支付
+定时清洗付款纪录，定时清洗这些留在 APP 内亦没甚用处的纪录
+使用阻隔 RFID 讯号卡套，套在身份证、银行卡、交通卡等一切有芯片的卡上。 或者用铝箔纸包裹上。
+不连接公共Wi-Fi ，不使用公共wifi上网上银行或网购网站。</p>
+<p>智慧手机集合了 GPS 追踪、窃听器、 SPY Cam 及密码纪录器于一身的强劲装置，只要把木马殖入，植入者就可以透过你的手机定时拍摄、录音及把 GPS 资料传出， 使用者除了会感到电池用得比较快外，其他不会有异样。</p>
+<p>定时清除 Cookies及浏览纪录 或者 使用无痕浏览器</p>
+<p>终极方案：转用非智慧手机</p>
+<h2 id="_8">设备加密</h2>
+<p>SSD 主导下「复制硬碟」（clone harddisk）所需的时间已经越来越短，用户只要将目标者的电脑关机，插入手指 ，选择 usb boot 机，就会自动快速将目标电脑内所有 harddisk 的资料复制走。
+无论是家用桌面电脑、手提电脑或随身的智慧装置，相信都会内藏不少较机密的档案，最好就安装适当的加密软体，就算硬碟被人复制走甚至整台电脑偷走，对方没有解密密码都开不到。
+电脑加密软体推荐：
+Windows / Mac OS / Linux：VeraCrypt
+Linux only：LUKS</p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.db81ec45.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.a00a7c5e.min.js"></script>
+      
+    
+  </body>
+</html>
