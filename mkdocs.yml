@@ -1,1 +1,15 @@
 site_name: 一些常识
+nav:
+  - 主页: index.md
+  - 各种已有U盘-SD卡-TF卡-移动硬盘: 各种已有U盘-SD卡-TF卡-移动硬盘.md
+  - 各种接口-大带宽-高速率接口对比: 各种接口-大带宽-高速率接口对比.md
+theme:
+  name: material
+  language: 'zh'  #配置语言
+  palette:  # 颜色
+    primary: 'cyan'
+    accent: 'neon'
+plugins:
+  - search
+markdown_extentions:
+  - admonition #提示块
