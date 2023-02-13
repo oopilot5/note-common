@@ -1,17 +1,13 @@
-# Welcome to MkDocs
+# 生活-数码
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## 数码
 
-## Commands
+* [各种已有U盘-SD卡-TF卡-移动硬盘](各种已有U盘-SD卡-TF卡-移动硬盘.md)
+* [各种接口-大带宽-高速率接口对比](各种接口-大带宽-高速率接口对比.md)
+* [100M全链路](100M全链路.md)
+* [10bit全链路](10bit全链路.md)
+* [4k视频全链路](4k视频全链路.md)
+* [无线组网-路由器 wifi6](无线组网-路由器-wifi6.md)
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## 生活
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.

@@ -1,8 +1,16 @@
 site_name: 一些常识
+
+copyright: Copyright © 晓忢
+
 nav:
   - 主页: index.md
   - 各种已有U盘-SD卡-TF卡-移动硬盘: 各种已有U盘-SD卡-TF卡-移动硬盘.md
   - 各种接口-大带宽-高速率接口对比: 各种接口-大带宽-高速率接口对比.md
+  - 100M全链路: 100M全链路.md
+  - 10bit全链路: 10bit全链路.md
+  - 4k视频全链路: 4k视频全链路.md
+  - 无线组网-路由器-wifi6: 无线组网-路由器-wifi6.md
+
 theme:
   name: material
   language: 'zh'  #配置语言
