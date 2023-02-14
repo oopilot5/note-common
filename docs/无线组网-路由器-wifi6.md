@@ -93,16 +93,19 @@ RAM 1024MB ROM 256MB
 
 AX82U/AX3000/AX58U BCM6750 (574+4804)
 
-- LINKSYS E9450 AX5400 (5G 4804Mbps 2.4G 574Mbps)
+- LINKSYS E9450 AX5400 (5G 4804Mbps 2.4G 574Mbps) -- 苹果专用
 博通 BCM6750 CPU 3x1.5GHz
 5G 芯片 BCM43684  2.4G 芯片 集成
 5G 功放 FEM  2.4G 功放 FEM 
 RAM 512MB ROM 256MB
 40+ 设备
-5G 4x4 mu-mimo, 2.4G 2x2 mu-mimo
+5G 4x4 mu-mimo
+2.4G 2x2 mu-mimo
 1 WAN 4 LAN 全千兆
-全新 Eash Mesh
-160MHz
+4x4 160MHz + 1024QAM
+完整 MU-MIMO 技术 4x4 天线技术 OFDMA 多设备齐头并进
+全新 Eash Mesh 多种回程
+
 
 ## wifi 5 路由器
 - 华硕 RT-AC86U AC2900Mbps(2166Mbps[720Mbps*3] 5G,750Mbps[250Mbps*3] 2.4G)  
