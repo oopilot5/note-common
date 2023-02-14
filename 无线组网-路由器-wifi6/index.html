@@ -17,7 +17,7 @@
     
     
       
-        <title>无线组网-路由器-wifi6 - 一些常识</title>
+        <title>无线组网-路由器-wifi6 - 生活-数码</title>
       
     
     
@@ -79,7 +79,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="页眉">
-    <a href=".." title="一些常识" class="md-header__button md-logo" aria-label="一些常识" data-md-component="logo">
+    <a href=".." title="生活-数码" class="md-header__button md-logo" aria-label="生活-数码" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -92,7 +92,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            一些常识
+            生活-数码
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -165,13 +165,13 @@
 
 <nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="一些常识" class="md-nav__button md-logo" aria-label="一些常识" data-md-component="logo">
+    <a href=".." title="生活-数码" class="md-nav__button md-logo" aria-label="生活-数码" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
 
     </a>
-    一些常识
+    生活-数码
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -437,6 +437,7 @@ EasyMesh支持有线和无线数据回程，回程可以共享或专用。EasyMe
 主路由与子路由直接网线相连</p>
 <ul>
 <li>进阶 软路由+AP模式有线MESH组网 -- (推荐)
+<img alt="mesh组网" src="../img/mesh%E7%BB%84%E7%BD%91.jpg" />
 软路由作为主路由。其他路由器，通过AP模式进行有线MESH组网。
 AP模式下：
     所有的路由器仅提供无线功能，其他路由器固件的高端功能，比如防火墙，端口映射等都无法使用。
@@ -444,10 +445,13 @@ AP模式下：
     有时候路由器自身的APP功能也会受到影响。
 ap模式下，路由器没有WAN口，随便插。</li>
 </ul>
-<p>主路由与子路由先进行无线MESH组网，组网成功后：
+<p>方法1 主MESH节点与子MESH节点先进行无线MESH组网，组网成功后：
     关闭主路由器的DHCP。
     再将主路由器，接入软路由，并改成AP模式。
-    mesh节点路由，通过有线接入软路由器。</p>
+    mesh节点路由，通过有线接入软路由器。
+方法2 主MESH节点接入软路由，并改成AP模式。
+    子mesh节点接入软路由，并改成AP模式。
+    主mesh节点上搜索mesh节点，按子mesh节点后面的mesh按钮进行配对。</p>
 <p>测试mesh:
 拿着笔记本一直ping网关，然后移动笔记本在各个房间走动，等待节点自动切换。</p>
 
