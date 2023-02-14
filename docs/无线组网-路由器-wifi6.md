@@ -39,6 +39,7 @@ EasyMesh支持有线和无线数据回程，回程可以共享或专用。EasyMe
 
 华硕AiMesh2.0 组网更方便，节点跟主路由器夸两个交换机都没问题。
 领势或者网件方案，这个延迟会更低，体验会更好。
+华硕、领势都支持和旧的wifi5机型组mesh，环保不浪费。网件组mesh不好用。
 领势支持easymesh 
 
 新款AX系列的Wi-Fi6路由器均支持Mesh组网。
@@ -74,3 +75,44 @@ ap模式下，路由器没有WAN口，随便插。
 
 测试mesh:
 拿着笔记本一直ping网关，然后移动笔记本在各个房间走动，等待节点自动切换。
+
+## wifi6 路由器对比
+- 红米 AX6000
+联发科 MT7986A CPU 4x2.0GHz
+5G 芯片 MT7976AN  2.4G 芯片 MT7976GN
+5G 功放 RTC66568  20dBm  2.4G 功放 RTC66266 20.5dBm
+RAM 512MB ROM 128MB
+
+- ASUS AX86U (861+4804)
+博通 BCM4908 CPU
+5G 芯片 BCM43684  2.4G 芯片 BCM6710
+5G 功放 FEM  20dBm  2.4G 功放 FEM
+RAM 1024MB ROM 256MB
+1(2.5G)+5个千兆口
+4x4 mu-mimo
+
+AX82U/AX3000/AX58U BCM6750 (574+4804)
+
+- LINKSYS E9450 AX5400 (5G 4804Mbps 2.4G 574Mbps)
+博通 BCM6750 CPU 3x1.5GHz
+5G 芯片 BCM43684  2.4G 芯片 集成
+5G 功放 FEM  2.4G 功放 FEM 
+RAM 512MB ROM 256MB
+40+ 设备
+5G 4x4 mu-mimo, 2.4G 2x2 mu-mimo
+1 WAN 4 LAN 全千兆
+全新 Eash Mesh
+160MHz
+
+## wifi 5 路由器
+- 华硕 RT-AC86U AC2900Mbps(2166Mbps[720Mbps*3] 5G,750Mbps[250Mbps*3] 2.4G)  
+802.11ac Wave 2 Wifi 
+多用户多进多出MU-MIMO  
+博通1.8G双核512M内存256M闪存 
+千兆网口 * 5
+                                                                                  
+- 网件 R7000P AC2300Mbps(1625Mbps[540Mbps*3] 5G,600Mbps[200Mbps*3] 2.4G) 
+802.11ac Wave 2 Wifi 
+多用户多进多出MU-MIMO 
+博通1G双核256M内存128M闪存 
+千兆网口 * 5
