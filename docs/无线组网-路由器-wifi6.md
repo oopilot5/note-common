@@ -182,6 +182,7 @@ EasyMesh 任意组网 - 添加 子节点：
 多用户多进多出MU-MIMO  
 博通1.8G双核512M内存256M闪存 
 千兆网口 * 5
+AP 模式 支持 WAN口盲插
                                                                                   
 - 网件 R7000P AC2300Mbps(1625Mbps[540Mbps*3] 5G,600Mbps[200Mbps*3] 2.4G) 
 802.11ac Wave 2 Wifi 
